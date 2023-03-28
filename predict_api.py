@@ -23,4 +23,4 @@ def predict():
     return jsonify(result.pandas().to_dict())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
